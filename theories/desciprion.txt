@@ -1,0 +1,17 @@
+Basic plan:
+
+generate mathematical objects and properties -> cache -> feed into the conjecture generator.
+
+The conjecture generator gets a list of vectors of numbers and (possibly boolean) properties, to
+avoid recomputing things, we store properties into csv files to load for equational generation.
+
+
+we'll have the following list of py/csv files at the end:
+
+graphs
+groups
+knots
+numTheory
+posets
+topology
+hypergraphs
